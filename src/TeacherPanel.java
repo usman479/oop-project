@@ -766,6 +766,7 @@ public class TeacherPanel extends javax.swing.JFrame {
         } catch (Exception e){
             System.out.println("kiuuuuun "+e);
         }
+         uploadAssignment.setText("");
         return true;
     }
 
